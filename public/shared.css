@@ -8,9 +8,12 @@ body {
 }
 
 .main-header {
-    background: #2DDF5C;
+    top: 0;
+    left: 0;
     width: 100%;
+    position: fixed;
     padding: 8px 16px;
+    background: #2DDF5C;
 }
 
 .main-header > div {
