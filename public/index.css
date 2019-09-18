@@ -1,6 +1,6 @@
 #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6), transparent),
-    url(../src/assets/images/freedom.jpg) left 10% bottom 20%/cover no-repeat border-box padding-box,
+    url(../src/assets/images/freedom.jpg) left 10% bottom 70%/cover no-repeat border-box padding-box,
     #FF1B68;
     /* background-image: url(../src/assets/images/freedom.jpg);
     background-size: cover;
@@ -10,8 +10,8 @@
     background-clip: border-box; */
     /* background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0, 0, 0, 0.5)); */
     /* background-image: radial-gradient(ellipse farthest-corner at 10% 50%, red, blue, green); */
-    width: 100%;
-    height: 528px;
+    width: 100vw;
+    height: 33vh;
     margin-top: 2.625rem;
     /* border: 5px dashed red; */
     position: relative;
