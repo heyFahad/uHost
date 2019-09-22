@@ -1,6 +1,6 @@
 #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6), transparent),
-    url(../src/assets/images/freedom.jpg) left 10% bottom 70%/cover no-repeat border-box padding-box,
+    url(../src/assets/images/freedom.jpg) center/cover no-repeat border-box padding-box,
     #FF1B68;
     /* background-image: url(../src/assets/images/freedom.jpg);
     background-size: cover;
@@ -42,20 +42,31 @@
     text-align: center;
 }
 
-.plans__list {
-    width: 80%;
-    margin: auto;
+/* .plans__list {
+    width: 100%;
     text-align: center;
-}
+} */
 
 .plan {
     background: #D5FFDC;
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+.plan--highlighted {
+    background: #19B84C;
+    color: white;
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
+}
+
+.plan__annotation {
+    background: white;
+    color: #19B84C;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__title {
@@ -82,20 +93,6 @@
 
 .plan__feature {
     margin: 0.5rem 0;
-}
-
-.plan--highlighted {
-    background: #19B84C;
-    color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.plan__annotation {
-    background: white;
-    color: #19B84C;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #key-features {
