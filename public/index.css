@@ -12,7 +12,6 @@
     /* background-image: radial-gradient(ellipse farthest-corner at 10% 50%, red, blue, green); */
     width: 100%;
     height: 33vh;
-    margin-top: 2.625rem;
     /* border: 5px dashed red; */
     position: relative;
 }
@@ -26,7 +25,7 @@
     font-size: 1.6rem;
 }
 
-@media (min-width: 44rem) {
+@media (min-width: 44rem) and (min-height: 44rem) {
     #product-overview {
         height: 40vh;
         background-position: 50% 25%;
@@ -123,13 +122,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: center;
-}
-
-.key-feature {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
 }
 
 .key-feature__image {
@@ -147,6 +139,19 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.25rem;
+}
+
+@media (min-width: 44rem) {
+    .key-features__list {
+        text-align: center;
+    }
+
+    .key-feature {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        max-width: 25rem;
+    }
 }
 
 .modal {
