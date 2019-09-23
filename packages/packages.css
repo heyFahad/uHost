@@ -6,7 +6,7 @@ main {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background: url("../../src/assets/images/plans-background.jpg") center/cover;
+    background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
     z-index: -1;
 }
