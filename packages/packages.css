@@ -67,7 +67,7 @@ main {
     color: #0E4F1F;
     border: 1px solid #0E4F1F;
     padding: 1rem;
-    font: 700 1.25rem 'AnonymousPro', sans-serif;
+    font-size: 1.25rem;
     /* font: [[<'font-style'> || <'font-variant'> || <'font-weight'> || <'font-stretch'>]? <font-size>[/<line-height>]? <font-family>] */
 }
 
