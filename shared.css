@@ -16,7 +16,7 @@ body {
     height: 100%;
     /* overflow-x: hidden; */
     display: grid;
-    grid-template-rows: 4rem auto 11.5rem;
+    grid-template-rows: 4rem auto fit-content(8.25rem);
     grid-template-areas: "header"
                          "main"
                          "footer";
@@ -142,10 +142,6 @@ main {
 }
 
 @media (min-width: 44rem) {
-    body {
-        grid-template-rows: 3.5rem auto 8.25rem;
-    }
-
     .toggle-button {
         display: none;
     }
